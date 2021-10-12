@@ -1,0 +1,12 @@
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\bin\Debug\QA-assessment.exe.config
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\bin\Debug\QA-assessment.exe
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\bin\Debug\QA-assessment.pdb
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\bin\Debug\WebDriver.dll
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\bin\Debug\WebDriver.xml
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\obj\Debug\QA-assessment.csproj.CoreCompileInputs.cache
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\obj\Debug\QA-assessment.exe
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\obj\Debug\QA-assessment.pdb
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\obj\Debug\QA-assessment.csproj.AssemblyReference.cache
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\bin\Debug\nunit.framework.dll
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Users\81258584\source\repos\QA-assessment\QA-assessment\bin\Debug\nunit.framework.xml

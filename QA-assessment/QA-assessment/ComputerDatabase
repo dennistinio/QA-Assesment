@@ -1,0 +1,56 @@
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace QA_assessment
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("test case started ");
+
+            //Create a new reference for browser
+            IWebDriver driver = new ChromeDriver();
+
+            // navigate to URL  
+            driver.Navigate().GoToUrl("http://computer-database.gatling.io/computers");
+            Thread.Sleep(2000);
+
+
+            // Add New Computer
+            IWebElement addBtn = driver.FindElement(By.Id("add"));
+            addBtn.Click();
+            Thread.Sleep(5000);
+
+            IWebElement compName = driver.FindElement(By.Id("name"));
+            compName.SendKeys("Test Computer");
+
+            IWebElement introducedTxt = driver.FindElement(By.Id("introduced"));
+            introducedTxt.SendKeys("1990-04-04");
+
+            IWebElement disContinuedTxt = driver.FindElement(By.Id("discontinued"));
+            disContinuedTxt.SendKeys("2000-04-04");
+
+            IWebElement companyTxt = driver.FindElement(By.Id("company"));
+            companyTxt.SendKeys("IBM");
+
+            Thread.Sleep(4000);
+
+            IWebElement submitBtn = driver.FindElement(By.XPath("//input[@class='btn primary']"));
+            submitBtn.Click();
+            Thread.Sleep(3000);
+
+
+            driver.Close();
+
+            Console.Write("test case ended ");
+
+        }
+    }
+}
